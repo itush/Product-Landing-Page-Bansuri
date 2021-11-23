@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Product Landing Page: Bansuri</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header id="header">
+        <div class="hdr">
+        <img src="https://cdn.pixabay.com/photo/2012/12/24/08/39/bamboo-flute-72162_960_720.jpg" id="header-img">
+
+  <nav id="nav-bar">
+       <a href="#home" class="nav-link">HOME</a>
+       <a href="#inst" class="nav-link">INSTRUMENTS</a>
+        <a href="#cust" class="nav-link">CUSTOM</a>
+        </nav>
+        </div>
+      </header>
+      <section id="home">
+          <div class="homesec">
+          <div class="left">
+          <h1>Handmade Bamboo Flute</h1>
+          <p>A bamboo flute (Bansuri) is a side blown flute originating from the Indian subcontinent.  It is an aerophone produced from bamboo, used in Hindustani classical music</p>
+          <button id="btn">Buy Now</button>
+          </div>
+          <div class="right">
+            <div class="yvid">
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/8ZqS3z7CKZo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+          </div>
+        </div>
+      </section>
+      <section id="inst">
+          <div class="instsec">
+               <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="https://kanhaflutes.com/wp-content/uploads/2020/01/Kanha-Flutes-A-Scale-12-Inch-30cmBansuri-1.jpg" style="width:100%">
+    <div class="text">12"A Scale Natural Medium Flute <br> $1 Only</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="https://kanhaflutes.com/wp-content/uploads/2020/01/Kanha-Flutes-A-Scale-SharpA-21-Inch54cm-Bansuri-1.jpg" style="width:100%">
+    <div class="text">21" A Scale Sharp Base <br>$1.5 Only</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="https://kanhaflutes.com/wp-content/uploads/2020/01/Kanha-Flutes-B-Scale-Size-20-Inch-51cm-1.jpg" style="width:100%">
+    <div class="text">20" B Scale Naturla Base <br>$2 Only</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+        </section>
+      <section id="cust">
+          <div class="custsec">
+              <div class="custhead">
+                <h2>Configure, Customize, Reinvent Your Flute With Us!
+                </h2> 
+                <p id="req">Send your requirement today for a FREE quotation.</p>   
+                <form action="https://www.freecodecamp.com/email-submit" id="form">
+                    <input type="text" name="name" id="name" placeholder="Name"><br>
+                    <input type="email" name="email" id="email" placeholder="E-Mail"><br>
+                    <textarea type="text" name="msg" id="msg" placeholder=" Message" rows="4" cols="50"></textarea><br>
+                    <input type="submit" id="submit">
+                </form>                         
+              </div>
+                    
+            </div>
+    </section>
+      <footer>
+        <div class="ftr">
+      Disclaimer: This website is developed only for educational purpose. The developer of this website does not own, claim or guarantee NOTHING! <br>  
+        Developed by <a href="#">Tushar Biswas</a>
+          </div>
+        </footer>
+      <script src="script.js"></script>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
